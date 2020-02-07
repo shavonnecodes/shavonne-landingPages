@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "shavonne-landing-page": {
+      "hosting": {
+        "shavonne": [
+          "shavonne-landing-page"
+        ]
+      }
+    }
+  }
+}

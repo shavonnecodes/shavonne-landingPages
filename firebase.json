@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "shavonne",
+      "public": "dist/shavonne",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}

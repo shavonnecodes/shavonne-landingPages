@@ -1,0 +1,39 @@
+
+.nav-logo {
+    width: 325px;
+    margin: -30px -10px -25px -47px;
+}
+
+.nav-item{
+    padding:2px;
+    margin-left: 7px;
+    font-size: 25px;
+}
+
+@media screen and (min-width: 1366px) {
+    .navbar-nav:hover .nav-item{
+        filter:blur(3px);
+        opacity:.5;
+        transform: scale(.98);
+        box-shadow:none;
+    }
+
+    .nav-logo{
+        width: 1000px;
+        margin: -30px -10px -25px -70px;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    .navbar-nav:hover .nav-item:hover{
+        transform:scale(1);
+        filter:blur(0px);
+        opacity:1;
+        box-shadow:0 8px 20px 0px rgba(0,0,0,0.125);
+    }
+
+    .nav-logo {
+        width: 500px;
+        margin: -30px -10px -25px -70px;
+    }
+}
