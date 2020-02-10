@@ -1,0 +1,9 @@
+.container-fluid{
+    height: 90vh;
+  }
+
+.homepage-background {
+    height: 100%;
+    background-color: rgb(255, 105, 180, .5);
+    width: 100%;
+}

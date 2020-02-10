@@ -6,6 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./blurb-page.component.css']
 })
 export class BlurbPageComponent implements OnInit {
+  blurbs = [
+    {"id": 1, "name": "Bloggerina", "videoURL": "https://i.imgur.com/ntiYy6I.mp4", "description": "Java, MySQL, and React", "creationDate": "January 2020"},
+    {"id": 1, "name": "Bloggerina", "videoURL": "#", "description": "Java, MySQL, and React", "creationDate": "January 2020"},
+    {"id": 1, "name": "Bloggerina", "videoURL": "#", "description": "Java, MySQL, and React", "creationDate": "January 2020"}
+  ];
 
   constructor() { }
 

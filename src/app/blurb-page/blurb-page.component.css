@@ -1,0 +1,40 @@
+.row {
+    justify-content: center;
+}
+
+.blurb-col {
+    border-radius: 5px;
+    margin: 20px;
+    width: 100%;
+}
+
+.blurb-card {
+    padding: 20px;
+    border-radius: 25px;
+    width: 100%;
+}
+
+.card-title {
+    font-size: 28px;
+}
+
+@media screen and (min-width: 400px) {
+    .row {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    
+
+    .nav-logo{
+        width: 1000px;
+        margin: -30px -10px -25px -70px;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    .row {
+        flex-direction: row;
+    }
+ 
+}

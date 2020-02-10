@@ -11,20 +11,6 @@
 }
 
 @media screen and (min-width: 1366px) {
-    .navbar-nav:hover .nav-item{
-        filter:blur(3px);
-        opacity:.5;
-        transform: scale(.98);
-        box-shadow:none;
-    }
-
-    .nav-logo{
-        width: 1000px;
-        margin: -30px -10px -25px -70px;
-    }
-}
-
-@media screen and (min-width: 1366px) {
     .navbar-nav:hover .nav-item:hover{
         transform:scale(1);
         filter:blur(0px);
@@ -37,3 +23,4 @@
         margin: -30px -10px -25px -70px;
     }
 }
+
