@@ -1,2 +1,2 @@
-export * from './Cat';
-export * from './ICat';
+export * from './Joke';
+export * from './IJoke';

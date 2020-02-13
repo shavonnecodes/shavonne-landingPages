@@ -1,13 +1,74 @@
 .container-fluid{
-    height: 90vh;
+    height: 73vh;
   }
 
 .homepage-background {
+    margin-top: 100px;
     height: 100%;
-    background-color: rgb(255, 105, 180, .5);
     width: 100%;
-    font-family: 'Beth Ellen', cursive;
     color: black;
-    font-size: 72px;
+    text-align: center;
 }
 
+#joke {
+  font-family: 'Dancing Script', cursive;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 30px;
+  padding-top: 50px;
+}
+
+#welcome {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  font-style: italic;
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 600px) {  
+  #joke {
+    font-size: 50px;
+    padding-top: 50px;
+  }
+
+  #welcome {
+    font-size: 25px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  #joke {
+    font-size: 70px;
+    padding-top: 80px;
+  }
+  
+  #welcome {
+    font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  #joke {
+    font-size: 100px;
+    padding-top: 40px;
+  }
+  
+  #welcome {
+    font-size: 60px;
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  #joke {
+    font-size: 100px;
+    padding-top: 60px;
+  }
+  
+  #welcome {
+    font-size: 60px;
+  }
+}
+
+.img-fluid {
+  height: 300px;
+}

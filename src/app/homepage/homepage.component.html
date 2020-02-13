@@ -1,7 +1,12 @@
 <div class="container-fluid">
     <div>
-        <div class="homepage-background" *ngFor="let cat of cats">
-            <img src="{{cat.file}}">
+        <div class="homepage-background">
+            <div id="joke" *ngFor="let joke of jokes">
+                '{{joke.joke}}'
+            </div>
+            <div id="welcome">
+                ~x~
+            </div>
         </div>
     </div>
 </div>

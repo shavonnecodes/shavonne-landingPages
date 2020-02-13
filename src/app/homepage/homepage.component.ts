@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ApiService } from '../api.service';
-import { Cat } from '../models';
+import { Joke } from '../models';
 
 @Component({
   selector: 'app-homepage',
@@ -9,7 +9,7 @@ import { Cat } from '../models';
 })
 export class HomepageComponent implements OnInit {
 
-  cats;
+  jokes;
   title = "hi"
 
 
@@ -18,8 +18,8 @@ export class HomepageComponent implements OnInit {
   ngOnInit() {
     this.apiService.getAll().subscribe((data) => {
       console.log(data);
-      this.cats = [data];
-      console.log(this.cats);
+      this.jokes = [data];
+      console.log(this.jokes);
     });
   }
 }
