@@ -1,5 +1,5 @@
 .container-fluid{
-    height: 68vh;
+    height: 57vh;
   }
 
 .homepage-background {
@@ -15,7 +15,7 @@
   padding-left: 20px;
   padding-right: 20px;
   font-size: 30px;
-  padding-top: 50px;
+  padding-top: 35px;
 }
 
 #welcome {
