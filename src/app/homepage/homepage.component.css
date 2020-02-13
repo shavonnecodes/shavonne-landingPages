@@ -1,5 +1,5 @@
 .container-fluid{
-    height: 73vh;
+    height: 68vh;
   }
 
 .homepage-background {
@@ -26,6 +26,10 @@
 }
 
 @media screen and (min-width: 600px) {  
+  .container-fluid{
+    height: 73vh;
+  }
+  
   #joke {
     font-size: 50px;
     padding-top: 50px;
@@ -37,8 +41,12 @@
 }
 
 @media screen and (min-width: 800px) {
+  .container-fluid{
+    height: 70vh;
+  }
+  
   #joke {
-    font-size: 70px;
+    font-size: 67px;
     padding-top: 80px;
   }
   
@@ -47,7 +55,11 @@
   }
 }
 
-@media screen and (min-width: 1366px) {
+@media screen and (min-width: 1300px) {
+  .container-fluid{
+    height: 70vh;
+  }
+  
   #joke {
     font-size: 100px;
     padding-top: 40px;
@@ -59,6 +71,10 @@
 }
 
 @media screen and (min-width: 1800px) {
+  .container-fluid{
+    height: 73vh;
+  }
+  
   #joke {
     font-size: 100px;
     padding-top: 60px;
