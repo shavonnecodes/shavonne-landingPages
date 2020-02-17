@@ -7,6 +7,33 @@
     padding: 0 100px;
     width: 100%;
     margin: 50px 0;
+    border: none;
+    font-family: 'Karla', sans-serif;
+}
+
+.card-title {
+    font-size: 60px;
+    color: #ebd5d5;
+}
+
+.shavonne {
+    background: url("https://i.imgur.com/bDGOKE5.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-size: 58px;
+    padding: 12px 25px 12px 15px;
+    color: rgb(235, 213, 213, .83);
+}
+
+.card-subtitle {
+    margin-top: 50px;
+    font-size: 40px;
+    color: #ea8a8a;
+}
+
+.card-text {
+    font-size: 20px;
+    color: #685454;
 }
 
 h6 {
@@ -15,4 +42,5 @@ h6 {
 
 h6, p {
     width: 100%;
+
 }

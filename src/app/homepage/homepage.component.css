@@ -11,18 +11,20 @@
 }
 
 #joke {
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Fondamento', cursive;
   padding-left: 20px;
   padding-right: 20px;
   font-size: 30px;
   padding-top: 35px;
+  color: #ea8a8a;
 }
 
 #welcome {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Karla', sans-serif;
   font-size: 12px;
   font-style: italic;
   margin-top: 10px;
+  color: #ea8a8a;
 }
 
 @media screen and (min-width: 600px) {  
@@ -43,11 +45,6 @@
 @media screen and (min-width: 800px) {
   .container-fluid{
     height: 70vh;
-  }
-  
-  #joke {
-    font-size: 67px;
-    padding-top: 80px;
   }
   
   #welcome {

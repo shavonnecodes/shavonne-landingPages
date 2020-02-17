@@ -9,13 +9,24 @@
 }
 
 .blurb-card {
+    font-family: 'Karla', sans-serif;
     padding: 20px;
     border-radius: 25px;
     width: 100%;
 }
 
 .card-title {
-    font-size: 28px;
+    font-size: 25px;
+    color: #ea8a8a;
+}
+
+.card-text {
+    color: #685454;
+    font-size: 17px;
+}
+
+#blurb-text {
+    font-size: 18px;
 }
 
 @media screen and (min-width: 400px) {
@@ -27,6 +38,14 @@
 @media screen and (min-width: 1366px) {
     .row {
         flex-direction: row;
+    }
+
+    .card-title {
+        font-size: 35px;
+    }
+
+    #blurb-text {
+        font-size: 20px;
     }
  
 }
