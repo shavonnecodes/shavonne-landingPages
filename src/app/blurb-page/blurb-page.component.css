@@ -15,9 +15,14 @@
     width: 100%;
 }
 
-.card-title {
+.blurb-name {
     font-size: 25px;
-    color: #ea8a8a;
+    background: url("https://i.imgur.com/bDGOKE5.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-size: 50px;
+    padding: 12px 25px 12px 15px;
+    color: rgb(235, 213, 213, .83);
 }
 
 .card-text {
