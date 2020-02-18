@@ -14,6 +14,7 @@
 .card-title {
     font-size: 60px;
     color: #ebd5d5;
+    margin-bottom: 80px;
 }
 
 .shavonne {
@@ -26,7 +27,6 @@
 }
 
 .card-subtitle {
-    margin-top: 50px;
     font-size: 40px;
     color: #ea8a8a;
 }
@@ -48,4 +48,18 @@ h6 {
 h6, p {
     width: 100%;
 
+}
+
+@media screen and (max-width: 500px) {
+    .card-title {
+        font-size: 40px;
+    }
+
+    .shavonne {
+        font-size: 38px;
+    }
+
+    .card-subtitle {
+        font-size: 30px;
+    }
 }

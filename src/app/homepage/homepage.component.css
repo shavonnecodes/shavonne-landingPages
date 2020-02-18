@@ -8,15 +8,31 @@
     width: 100%;
     color: black;
     text-align: center;
-}
+    }
 
 #joke {
+  width: 100%;
+  height: 525px;
   font-family: 'Fondamento', cursive;
   padding-left: 20px;
   padding-right: 20px;
   font-size: 30px;
   padding-top: 35px;
   color: #ea8a8a;
+  overflow: auto;
+}
+
+#joke::-webkit-scrollbar {
+  width: 15px;
+}
+ 
+#joke::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+ 
+#joke::-webkit-scrollbar-thumb {
+  background-color: #ebd5d5;
+  outline: 1px solid #ebd5d5;
 }
 
 #welcome {
@@ -34,7 +50,7 @@
   
   #joke {
     font-size: 50px;
-    padding-top: 50px;
+    padding-top: 40px;
   }
 
   #welcome {
