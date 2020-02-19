@@ -50,6 +50,41 @@ h6, p {
 
 }
 
+.signature-block {
+    text-align: center;
+}
+
+.signature-line {
+    font-family: 'Karla', sans-serif;
+    font-size: 45px;
+    color: #ea8a8a;
+    margin-bottom: 20px;
+}
+
+.shavs-signature {
+    font-family: 'Beth Ellen', cursive;
+    font-size: 38px;
+    color: #685454;
+    margin-bottom: 80px;
+}
+
+.shavs-pic {
+    height: 600px;
+    opacity: .9;
+    margin-bottom: 70px;
+}
+
+.closing-block {
+    text-align: center;
+    margin-top: -30px;
+    margin-bottom: 70px;
+}
+
+.closing-text {
+    font-size: 23px;
+    color: #685454;
+}
+
 @media screen and (max-width: 500px) {
     .card-title {
         font-size: 40px;
