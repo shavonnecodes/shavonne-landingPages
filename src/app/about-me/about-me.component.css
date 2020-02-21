@@ -95,6 +95,22 @@ h6, p {
     }
 
     .card-subtitle {
-        font-size: 30px;
+        font-size: 25px;
+    }
+
+    .card-text {
+        font-size: 18px;
+    }
+
+    .shavs-pic {
+        height: 350px;
+    }
+
+    .closing-block {
+        padding: 10px;
+    }
+
+    .closing-text {
+        font-size: 18px;
     }
 }

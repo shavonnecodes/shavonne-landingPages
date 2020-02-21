@@ -16,7 +16,6 @@
 }
 
 .blurb-name {
-    font-size: 25px;
     background: url("https://i.imgur.com/bDGOKE5.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -37,6 +36,12 @@
 @media screen and (min-width: 400px) {
     .row {
         align-items: center;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .blurb-name {
+        font-size: 25px;
     }
 }
 

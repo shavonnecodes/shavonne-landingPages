@@ -1,7 +1,7 @@
 <div class="row">
     <div class="blurb-col col-lg-auto col-xl-5" *ngFor="let blurb of blurbs">
         <div class="blurb-card">
-            <video class="card-img-top" autoplay>
+            <video class="card-img-top" autoplay controls>
                 <source src={{blurb.videoURL}} type="video/mp4">
                 Your browser does not support the video tag.
             </video>
